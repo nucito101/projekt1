@@ -23,33 +23,33 @@ body {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 main {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
 /* Navigation */
 
 header nav {
-    display: flex;
-    justify-content: flex-start;
-    gap: 30px;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 30px 40px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 40px;
 }
 
 header nav a {
-    color: var(--text-color);
-    font-size: 14px;
-    font-family: "roboto";
-    text-decoration: none;
+  color: var(--text-color);
+  font-size: 14px;
+  font-family: "roboto";
+  text-decoration: none;
 }
 
 header nav a:hover {
@@ -60,32 +60,32 @@ header nav a:hover {
 /* Header */
 
 section.header {
-    padding: 80px 0;
-    position: relative;
+  padding: 80px 0;
+  position: relative;
 }
 
 section.header h1 {
-    font-size: 60px; 
-    font-weight: 500;
-    color: var(--text-color);
-    margin: 0;
-    line-height: 1.1;
+  font-size: 60px; 
+  font-weight: 500;
+  color: var(--text-color);
+  margin: 0;
+  line-height: 1.1;
 }
 
 section.header .subtitle {
-    font-size: 40px;
-    font-weight: 400;
-    margin: 0;
-    line-height: 1.2;
-    max-width: 650px;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.2;
+  max-width: 650px;
 }
 
 section.header .browse-link {
-    display: inline-block;
-    margin-top: 80px;
-    color: #888888;
-    font-size: 14px;
-    text-decoration: none;
+  display: inline-block;
+  margin-top: 80px;
+  color: #888888;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 section.header .browse-link:hover {
@@ -95,17 +95,17 @@ section.header .browse-link:hover {
 /* socials */
 
 .social {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .social img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .social a:hover {
@@ -245,6 +245,6 @@ footer .button:hover {
 }
 
 footer .copyright {
-    font-size: 12px;
-    color: #aaa;
+  font-size: 12px;
+  color: #aaa;
 }
