@@ -135,6 +135,15 @@ section.main > p {
   font-size: 12px;
 }
 
+.featured {
+  font-family: "roboto";
+  font-size: 17px;
+  font-weight: 400;
+  margin: 20px auto;
+  padding: 50px 0;
+  border-top: 2px solid #eeeeee;
+}
+
 /* Icon grid */
 .grid {
   display: grid;
@@ -216,9 +225,9 @@ section.main > p {
 
 /* footer */
 footer {
-    text-align: center;
-    padding: 40px 20px 60px 20px;
-    border-top: 2px solid #eeeeee;
+  text-align: center;
+  padding: 40px 20px 60px 20px;
+  border-top: 2px solid #eeeeee;
 }
 
 footer .button {
